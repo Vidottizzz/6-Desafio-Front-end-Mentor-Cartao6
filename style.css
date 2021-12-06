@@ -24,10 +24,9 @@ body {
   font-size: 15px;
 }
 .card {
-  width: 24rem;
+  width: 23.5rem;
   height: 100%;
   margin: auto;
-  background-color: yellowgreen;
 }
 .card .card-content {
   display: grid;
@@ -56,15 +55,61 @@ header .head-card p {
   padding-bottom: 1.5rem;
   width: 100%;
   margin: auto;
+  line-height: 1.5rem;
+  font-size: 0.89rem;
+  font-weight: 500;
 }
-.head-bg {
 
-}
 /* --- Main --- */
-.main-bg {
 
+main .main-card .card-stars {
+  background-color: var(--lightGrayishMagenta);
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
 }
-/* --- footer --- */
-.footer-bg {
 
+
+main .main-card .card-stars img{
+  margin-right: 0.4rem;
+}
+main .main-card .card-stars p{
+  margin-top: 0.5rem;
+  font-size: 15px;
+  font-weight: 700;
+  
+}
+
+/* --- footer --- */
+footer .card-client {
+  background-color: var(--veryDarkMagenta);
+  padding: 2.5rem 2rem 1rem 2rem;
+  margin-top: 0.9rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  height: 15rem;
+  color: white;
+  text-align: left;
+  font-size: 12.7px;
+  line-height: 1.5;
+}
+footer .card-client .card-title{
+  display:flex;
+  padding-bottom: 2rem;
+  color: white;
+  align-items: center;
+}
+footer .card-client .card-title img{
+  width: 2.5rem;
+  margin-right: 1.5rem;
+}
+footer .card-client .card-title .card-title-text p {
+  display: flex;
+  flex-direction: column;
+  
+}
+footer .card-client .card-title .card-title-text span {
+ color: var(--darkGrayishMagenta);
+  
 }
