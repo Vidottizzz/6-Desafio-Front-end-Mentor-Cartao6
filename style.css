@@ -2,7 +2,7 @@
   /* ### Primary */
 
   --veryDarkMagenta: hsl(300, 43%, 22%);
-  -softpink: hsl(333, 80%, 67%);
+  --softpink: hsl(333, 80%, 67%);
 
   /* ### Neutral */
 
@@ -45,6 +45,9 @@ img {
 
 
  /* --- Header ---  */
+ header{
+   width: 100%;
+ }
 header .head-card h1 {
   padding-bottom: 1.5rem;
   width: 95%;
@@ -62,6 +65,9 @@ header .head-card p {
 
 /* --- Main --- */
 
+main {
+  width: 100%;
+}
 main .main-card .card-stars {
   background-color: var(--lightGrayishMagenta);
   margin-bottom: 1rem;
@@ -81,6 +87,7 @@ main .main-card .card-stars p{
 }
 
 /* --- footer --- */
+
 footer .card-client {
   background-color: var(--veryDarkMagenta);
   padding: 2.5rem 2rem 1rem 2rem;
@@ -111,5 +118,118 @@ footer .card-client .card-title .card-title-text p {
 }
 footer .card-client .card-title .card-title-text span {
  color: var(--darkGrayishMagenta);
+  
+}
+
+
+
+
+
+
+
+
+
+
+/* -----------------------------------------------------------------------------------------
+############################################################################################# */
+@media only screen and  (min-width : 1550px) {
+ 
+  .card {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 5rem;
+  }
+  .card .card-content {
+    width: 100%;
+    padding-left: 10rem;
+    padding-top: 3rem;
+  }
+
+
+  .wrap-head-body {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10rem;
+    
+  }
+  .head-card {
+    text-align: left;
+    width: 28.8rem;
+  }
+  .card .card-client {
+    width: 100%;
+  }
+  .card .card-content .head-card h1 {
+    font-size: 3rem;
+    color: var(--veryDarkMagenta);
+    margin-left: 0;
+    padding-bottom: 0.6rem;
+    
+  }
+  header {
+    width: 53.2rem;
+
+  }
+  .head-card p{
+    margin: auto;
+    padding: 1rem;
+    padding-top: 0;
+    padding-left: 0;
+    font-size: 1.7rem;
+  }
+
+  .main-card {
+    padding-top: 5rem;
+  
+  }
+  .main-card .card-stars {
+    width: 29.5rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    
+  }
+  .main-card .card-stars span {
+    padding-top: 0;
+    padding-left: 2rem;
+    font-weight: 700
+  }
+  .main-card .card-stars .stars-img {
+  padding-left: 1rem;
+   
+    
+  }
+  .main-card .card-stars:nth-child(2) {
+    margin-left: 3rem;
+  }
+  .main-card .card-stars:nth-child(3) {
+    margin-left: 6rem;
+  }
+
+
+
+
+
+
+
+
+  /* ---Footer--- */
+  footer {
+    gap: 1.8rem;
+    display: flex;
+    width: 79rem;
+    padding-left: 10rem;
+  }
+  footer #card-client-2 {
+    margin-top: 2rem;
+  } 
+  footer #card-client-3 {
+    margin-top: 4rem;
+  }
+  footer .card-client .card-title .card-title-text .red-span{
+    color: var(--softpink);
+   
+  }
   
 }
