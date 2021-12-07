@@ -23,6 +23,13 @@
 body {
   font-size: 15px;
 }
+.attribution a { 
+  color: red   
+         
+}
+.attribution p {
+  text-align: center;
+}
 .card {
   width: 23.5rem;
   height: 100%;
@@ -151,7 +158,7 @@ footer .card-client .card-title .card-title-text span {
   .wrap-head-body {
     display: flex;
     flex-direction: row;
-    padding-left: 10rem;
+    padding-left: 5rem;
     
   }
   .head-card {
@@ -220,7 +227,7 @@ footer .card-client .card-title .card-title-text span {
     gap: 1.8rem;
     display: flex;
     width: 79rem;
-    padding-left: 10rem;
+    padding-left: 5rem;
   }
   footer #card-client-2 {
     margin-top: 2rem;
