@@ -78,9 +78,10 @@ main .main-card .card-stars {
 
 main .main-card .card-stars img{
   margin-right: 0.4rem;
+  margin-bottom: 0.5rem;
 }
-main .main-card .card-stars p{
-  margin-top: 0.5rem;
+main .main-card .card-stars span{
+  
   font-size: 15px;
   font-weight: 700;
   
